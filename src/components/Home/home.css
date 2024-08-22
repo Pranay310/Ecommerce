@@ -1,0 +1,87 @@
+#page1-text-div h1 {
+    color: rgb(219, 216, 216);
+    font-family: Gilroy Light;
+    font-size: 70px;
+}
+
+#page1-text-div h2 {
+    color: rgb(219, 216, 216);
+    font-family: Gilroy Light;
+    font-size: 70px;
+}
+
+#page2-right-div h1 {
+    font-family: Gilroy ExtraBold;
+    font-size: x-large;
+    margin: 5% 0%;
+}
+
+#image1-info {
+    position: absolute;
+    top: 33vh;
+    left: 8vw;
+}
+
+#image1-info h1 {
+    font-family: Gilroy ExtraBold;
+    font-size: x-large;
+    margin: 5% 0%;
+}
+
+#page3-left-div {
+    background-color: #EEEEE5;
+}
+
+#page3-right-div span {
+    font-family: Gilroy ExtraBold;
+    font-size: 100px;
+}
+
+#page3-right-div h1 {
+    font-family: Gilroy Light;
+    font-size: 30px;
+}
+
+#page3-arrow-div span:hover {
+    transform: rotate(360deg);
+    transition: all ease-in-out 0.5s;
+}
+
+#page3-div img {
+    opacity: 0;
+    transform: translateY(-10%) rotate(10deg);
+    transition: all ease 1s;
+}
+
+.page3-text-div {
+    overflow: hidden;
+}
+
+.page3-text-div h1 {
+    color: black;
+    font-size: 58px;
+    transition: all ease 0.8s;
+}
+
+.page3-text-div:hover h1 {
+    transform: translateY(-100%);
+}
+
+#page3-div:hover img {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+}
+
+.page3-text-div h1:nth-child(1) {
+    color: white;
+}
+
+.page3-text-div h1:nth-child(2) {
+    color: chocolate;
+}
+
+.video1:hover img {
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
